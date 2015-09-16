@@ -30,6 +30,7 @@ function decideWhatToDoNext(err, online){
 	}
 	
 	if( flag ){
+		flag = false;
 		log.warn("System is back online shutdown timeout removed");
 	}
 
